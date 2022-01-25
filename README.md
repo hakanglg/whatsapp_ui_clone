@@ -1,16 +1,3 @@
 # whatsapp_ui_clone
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+   <img src="https://user-images.githubusercontent.com/58719777/150984792-53115d15-1312-4e02-8de4-b73eb152e003.jpeg" width="300" /><img src="https://user-images.githubusercontent.com/58719777/150984783-9b0d6d59-d84b-4f1c-8cea-0d3865620891.jpeg" width="300" />
