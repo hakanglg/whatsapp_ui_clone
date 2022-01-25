@@ -2,8 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:whatsapp_ui_clone/constants/color.dart';
 import 'package:whatsapp_ui_clone/constants/info.dart';
 
-class ContactList extends StatelessWidget {
-  const ContactList({Key? key}) : super(key: key);
+import 'chat_screen.dart';
+
+class ContactsScreen extends StatelessWidget {
+  const ContactsScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -16,11 +18,14 @@ class ContactList extends StatelessWidget {
               padding:
                   EdgeInsets.all(MediaQuery.of(context).size.height * 0.005),
               child: ListTile(
+                onTap: () {
+                  Navigator.of(context).push(MaterialPageRoute(
+                    builder: (context) => ChatScreen(),
+                  ));
+                },
                 title: Text(
                   info[index]["name"].toString(),
-                  style: Theme.of(context).textTheme.headline6!.copyWith(
-                        fontSize: 15,
-                      ),
+                  style: Theme.of(context).textTheme.headline6,
                 ),
                 subtitle: Text(
                   info[index]["message"].toString(),

@@ -16,10 +16,9 @@ class MyApp extends StatelessWidget {
                 FloatingActionButtonThemeData(backgroundColor: tabColor),
             iconTheme: IconThemeData(color: Colors.grey),
             textTheme: TextTheme(
-              headline6: TextStyle(color: textColor),
+              headline6: TextStyle(color: textColor, fontSize: 15),
               subtitle2: TextStyle(color: Colors.grey[500]),
-              bodyText1:
-                  TextStyle(color: textColor, fontWeight: FontWeight.bold),
+              bodyText1: TextStyle(color: textColor),
             ),
             indicatorColor: tabColor,
             tabBarTheme: TabBarTheme(

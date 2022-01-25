@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:whatsapp_ui_clone/components/contacts_list.dart';
+import 'package:whatsapp_ui_clone/screens/contacts_screen.dart';
 import 'package:whatsapp_ui_clone/constants/color.dart';
 import 'package:whatsapp_ui_clone/constants/strings.dart';
 import 'package:whatsapp_ui_clone/core/widgets/custom_icon_button.dart';
@@ -15,7 +15,7 @@ class HomeView extends StatelessWidget {
         child: Scaffold(
           appBar: buildAppBar(context),
           body: TabBarView(children: [
-            ContactList(),
+            ContactsScreen(),
             Container(),
             Container(),
           ]),
@@ -25,9 +25,9 @@ class HomeView extends StatelessWidget {
 
   FloatingActionButton myFAB() {
     return FloatingActionButton(
-          onPressed: () {},
-          child: Icon(Icons.comment, color: Colors.white),
-        );
+      onPressed: () {},
+      child: Icon(Icons.comment, color: Colors.white),
+    );
   }
 
   AppBar buildAppBar(BuildContext context) {
